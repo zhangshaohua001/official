@@ -1,0 +1,163 @@
+.QYGK_QYJJ{
+	width: 100%;
+	height: 610px;
+}
+.QYGK_QYJJ>img,.QYGK_QYJJ>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.QYGK_QYJJ{
+	width: 100%;
+	height: 675px;
+}
+.QYGK_QYJJ_BOTTON
+{
+	width: 100%;
+	height: 675px;
+	padding-top: 60px;
+}
+.QYGK_QYJJ_BOTTON>div{
+	padding-left: 37px;
+	padding-bottom: 30px;
+	background-image: url(../image/png/Zzjgb.gif);
+	background-position: 0 top;
+	background-repeat: no-repeat;
+}
+.QYGK_QYJJ_BOTTON>div>h2{
+	font-size: 16px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.QYGK_QYJJ_BOTTON>div>p{
+	font-size: 16px;
+}
+.qualification{
+	padding: 0%;
+}
+.development_course_ul>p{
+	width: 100%;
+	height: 400px;
+}
+.development_course_ul>p>img{
+	width: 100%;
+	height: 100%;
+}
+.qualification li{
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	
+}
+.qualification li>img{width: 100%;height: 100%;}
+#PPLN p{
+	text-indent: 2em;
+	margin-top: 20px;}
+	.SWZFD_tu{
+		margin-top: 20px;
+	}
+.SWZFD_tu_left{
+	width: 49%;
+	height: 500px;
+	margin-right: 1%;
+	float: left;	
+}
+.SWZFD_tu_left>img{
+	width: 100%;
+	height: 100%;
+}
+.SWZFD_tu_right{
+	width: 50%;
+	float: left;
+height: 500px;
+	
+}
+.SWZFD_tu_right>img{
+	width: 100%;
+height:248px;
+margin: 2px;
+	
+}
+.SWZFD_tu_left1{
+	width: 45%;
+	float: left;
+	height: 350px;
+	
+}.SWZFD_tu_left1>img{
+	width: 100%;
+	height: 100%;
+	
+}
+.SWZFD_tu_right1{
+	width: 55%;
+	float: left;height: 350px;
+}
+.SWZFD_tu_right1>img{
+	width: 100%;
+	height: 100%;
+}
+#rec{
+	width: 100%;
+	height: 100%;
+}
+#gongzou{
+	margin-top: 20px;
+	color: #9C9C9C; font-size: 18px;
+	
+	
+}
+#gongzou span{
+	
+	font-weight: bold;color: #000000;
+	
+	
+}
+#gongzou ol{
+	
+ color: #000000;padding-left: 30px;
+	
+	
+}
+#gongzou ol li{
+	line-height: 30px;
+}
+.diqu>li>div{
+	margin-top: 17px;
+	text-align: left;
+	
+}
+.diqu>li{
+	width: 13%;
+
+	text-align: left;
+	padding-left: 2%
+}
+.diqu>li>div{
+	margin-top: 10px;
+}
+.diqu>li>div>p{
+	text-align: left;
+	width: 100%;
+	 font-size: 16px;
+	 background-color: #F15A24;
+	 color: #FFFFFF;
+}
+@media only screen and (max-width: 1280px) {
+	
+.diqu>li>div>p{
+	 font-size: 10px;
+}
+.diqu>li {
+    font-size: 18px;
+}	
+}
+@media only screen and (max-width: 960px) {
+	
+.diqu>li>div>p{
+	 font-size: 10px;
+}
+.diqu>li {
+    font-size: 18px;
+}		
+}
