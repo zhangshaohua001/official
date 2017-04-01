@@ -36,7 +36,7 @@ class Tags extends ActiveRecord
         return $info;
     }
 
-    public function getOne($id){
+    public static function getOne($id){
         return self::find()->select('*')->where(['route_id' => $id])->asArray()->one();
     }
 
