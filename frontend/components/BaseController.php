@@ -37,7 +37,7 @@ class BaseController extends Controller
     /*
      * 获取导航
      * */
-    private static function getRoutes(){
+    public function getRoutes(){
         $res = self::routes_loop(0);
         return $res;
     }
