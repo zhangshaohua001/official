@@ -31,12 +31,12 @@ class Routes extends ActiveRecord
         return $merge;
     }
 
-    public function getList($name){
+    public static function getList($name){
         return self::find()->select('parent_id')->where(['en_name' => $name])->asArray()->one();
 
     }
 
-    public function getAll(){
+    public static function getAll(){
         return self::find()->select('id,name')->where(['tag' => 1])->asArray()->all();
 
     }

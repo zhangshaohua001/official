@@ -23,7 +23,7 @@ class BaseController extends Controller
         Yii::$app->view->params['routesInfo'] = $this->routesInfo;
     }
 
-    public function routes_loop($id = 0)
+    public static function routes_loop($id = 0)
     {
         $res = Routes::find()->select('id,name,en_name,image,tag')->where(['parent_id'=>$id,'del_flag'=>0])->orderBy('sort asc')->asArray()->all();
         if($res){
