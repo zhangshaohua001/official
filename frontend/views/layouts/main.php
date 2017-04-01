@@ -118,8 +118,10 @@ use yii\helpers\Url;
             <div class="search_input">
                 <form name="search_js1" method="post" action="/e/search/"
                       onsubmit="return search_check(document.search_js1);" id="searchForm">
-                    <a href="javascript:document.getElementById('searchForm').submit();"><img
-                            src="image/search.png"></a>
+                    <!--<a href="javascript:document.getElementById('searchForm').submit();"><img
+                            src="image/search.png"></a>-->
+                    <a href=""><img
+                            src="../image/search.png"></a>
                     <input name="show" value="title,smalltext,newstext,writer" type="hidden">
                     <input name="classid" value="" type="hidden">
                     <input name="tempid" value="1" type="hidden">
