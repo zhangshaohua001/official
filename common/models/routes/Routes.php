@@ -23,7 +23,7 @@ class Routes extends ActiveRecord
     /*
      * 获取第一级别
      */
-    public function route_head($name){
+    public static function route_head($name){
         $one = self::find()->select('parent_id,name')->where(['en_name' => $name])->asArray()->one();
         $two = self::find()->select('parent_id,en_name,name as name1')->where(['id' => $one['parent_id']])->asArray()->one();
         $three = self::find()->select('name as name2')->where(['id' => $two['parent_id']])->asArray()->one();

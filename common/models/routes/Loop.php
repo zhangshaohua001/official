@@ -21,7 +21,7 @@ class Loop extends ActiveRecord
         return '轮播图';
     }
 
-    public static function getAll($name = '',$pageSize)
+    public function getAll($name = '',$pageSize)
     {
         $query = self::find()->where(['del_flag' => DEL_FLAG_FALSE]);
         if (!empty($name)) {

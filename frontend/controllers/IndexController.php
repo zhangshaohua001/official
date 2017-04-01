@@ -16,8 +16,8 @@ class IndexController extends BaseController
         $this->getView()->title = "风电研发";
         $this->getView()->keywords = "风力发电场项目建设工程验收规程";
         $this->getView()->description = "为加强风力发电场项目建设工程验收管理工作，规范风力发电场项目建设工程验收程序，确保风力发电场项目建设工程质量";
-        //$loop = Loop::getloop();
-        $loop = Loop::find()->select('title,image,sort')->where(['del_flag' => 0])->orderBy('sort')->asArray()->all();
+        $loop = Loop::getloop();
+        //$loop = Loop::find()->select('title,image,sort')->where(['del_flag' => 0])->orderBy('sort')->asArray()->all();
         return $this->render('index',['loop'=>$loop]);
     }
 
