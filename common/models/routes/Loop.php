@@ -35,7 +35,7 @@ class Loop extends ActiveRecord
         return $info;
     }
 
-    public function getLoop(){
+    public static function getLoop(){
         return self::find()->select('title,image,sort')->where(['del_flag' => 0])->orderBy('sort')->asArray()->all();
 
     }
